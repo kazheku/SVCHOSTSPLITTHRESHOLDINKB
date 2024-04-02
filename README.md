@@ -11,5 +11,8 @@ Here's How:
 
 - Go to Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control and edit the key named SvcHostSplitThresholdInKB to match your PCs memory in KB.
 
+![image](https://github.com/pabl1ku/SVCHOSTSPLITTHRESHOLDINKB/assets/115459058/50acd151-7924-4e58-985d-8f2f393a799c)
 
+![image](https://github.com/pabl1ku/SVCHOSTSPLITTHRESHOLDINKB/assets/115459058/ba307c6e-a130-49ef-b5a2-bf0bad3dc089)
 
+Then reboot for the changes to take affect. Your Task Manger processes should decrease after you do this!
