@@ -5,4 +5,10 @@ If the combined memory usage of services hosted by a single svchost.exe exceeds 
 By default, SvcHostSplitThresholdInKB is set to 380,000 KB (around 370 MB). This means services will be grouped into different svchost.exe processes until their combined memory usage reaches this limit.
 It is recommended to set SvcHostSplitThresholdInKB to the size of your memory.
 
+Here's How:
+
+1 Press the Win + R keys to open Run, type regedit into Run, and click/tap on OK to open Registry Editor.
+
+1 Navigate to the key below in the left pane of Registry Editor. (see screenshot below)
+
 
