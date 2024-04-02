@@ -1,4 +1,4 @@
-<h1> SVCHOSTSPLITTHRESHOLDINKB </h1>
+<h1> How to Change Split Threshold for svchost.exe in Windows 10/11 </h1>
 In Windows, the **SvcHostSplitThresholdInKB** is a registry key that determines how the system groups Windows services into instances of the svchost.exe process. What is svchost.exe? This is a generic host process that runs most Windows services. 
 Each service can be loaded into a separate instance of svchost.exe, making resource management and monitoring easier. This key defines the memory threshold (in kilobytes) at which Windows will separate services into different svchost.exe instances. 
 If the combined memory usage of services hosted by a single svchost.exe exceeds this threshold, Windows will create a new instance to distribute the load.
