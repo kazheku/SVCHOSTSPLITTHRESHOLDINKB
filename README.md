@@ -7,8 +7,9 @@ It is recommended to set SvcHostSplitThresholdInKB to the size of your memory.
 
 Here's How:
 
-1 Press the Win + R keys to open Run, type regedit into Run, and click/tap on OK to open Registry Editor.
+- Press the Win + R keys to open Run, type regedit into Run, and click/tap on OK to open Registry Editor.
 
-1 Navigate to the key below in the left pane of Registry Editor. (see screenshot below)
+- Go to Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control and edit the key named SvcHostSplitThresholdInKB to match your PCs memory in KB.
+
 
 
